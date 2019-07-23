@@ -9,6 +9,7 @@ python3 -m venv venv
 . venv/bin/activate
 
 After create environment install all requirements liberary
+See requirement file
 
 
 demo: is a simple demo Rest-api using python flask
