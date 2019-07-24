@@ -1,16 +1,2 @@
-Rest-Api using python flask:
-
-##Create an environment
-mkdir python
-cd python
-python3 -m venv venv
-
-##Activate the environment
-. venv/bin/activate
-
-After create environment install all requirements liberary
-See requirement file
-
-
-demo: is a simple demo Rest-api using python flask
-demo2: is a simple Rest-api for signup
+Using regular we are validate mobile number, emailId etc
+And by using web scraping we can find from web page any type of all number, emailId, name etc.
