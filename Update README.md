@@ -4,6 +4,7 @@ Rest-Api using python flask:
 all requirment are given in requirment.txt file
 demo1.py is signup api for user
 login.py is login for user
+getData.py is show data which are login
 
 Regural expression:
 -------------------
