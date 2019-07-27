@@ -14,7 +14,7 @@ def changePassword():
             payload=request.get_json()
             print(payload)
 
-            for dId in doctor.find():
+            for dId in demo.find():
 
                 if payload['UserId'] == str(dId['_id']):
                     if payload['Passwordnew'] == payload['Passwordconf']:
