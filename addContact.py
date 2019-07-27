@@ -13,11 +13,11 @@ def ContactDetail():
  
             payload=request.get_json()
 
-            for pId in patient.find():
+            for pId in demo.find():
                 if payload['UserId'] == str(pId['_id']):
                     
                         del payload['pId']
-                        patient.update_one({
+                        demo.update_one({
                                     '_id':pId['_id']
                             },{
                             
