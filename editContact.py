@@ -16,7 +16,7 @@ def editProfile():
 
                 if payload['pId'] == str(pId['_id']):
                         del payload['pId']
-                        patient.update_one({
+                        demo.update_one({
                                     '_id':pId['_id']
                             },{
                                 '$set':{
