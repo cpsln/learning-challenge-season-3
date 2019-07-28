@@ -5,8 +5,8 @@ from flask import Flask
 
 app=Flask(__name__)
 
-@app.route('/PatientData', methods=['POST'])
-def patientdata():
+@app.route('/gettData', methods=['POST'])
+def getdata():
         if request.method =='POST':
             data=demo.find()
             payload=request.get_json()
