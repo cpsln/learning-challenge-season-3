@@ -5,9 +5,9 @@ from flask import Flask
 
 app=Flask(__name__)
 
-@app.route('/allUserData', methods=['POST'])
+@app.route('/allUserData', methods=['GET'])
 def allUser():
-        if request.method =='POST':
+        if request.method =='GET':
             data=demo.find()
             payload=request.get_json()
             print(payload)
